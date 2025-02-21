@@ -2,10 +2,11 @@
 session_start(); // Start the session for sessionID tracking
 
 // Database connection
-$host = "localhost";
-$username = "root";
-$password = ""; // Leave blank if using XAMPP default
-$database = "survey_db";
+$host = "sql7.freesqldatabase.com";
+$username = "sql7763939";
+$password = "iPfKXD8Ljb"; // Leave blank if using XAMPP default
+$database = "sql7763939";
+
 
 $conn = new mysqli($host, $username, $password, $database);
 
